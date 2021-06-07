@@ -1,0 +1,38 @@
+.header {
+    background-color: $accent;
+    &__inner {
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (min-width: 640px) {
+    .header {
+        &__inner {
+            min-height: 100px;
+        }
+    }
+}
+
+.menu {
+    &__btn {
+        position: relative;
+        border: none;
+        border-radius: 3px;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 2px;
+            border-radius: 1px;
+            background-color: $accent;
+            top: 15px;
+            left: 14px;
+            box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
+        }
+    }
+}
