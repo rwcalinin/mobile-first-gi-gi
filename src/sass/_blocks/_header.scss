@@ -7,13 +7,6 @@
         align-items: center;
     }
 }
-@media (min-width: 640px) {
-    .header {
-        &__inner {
-            min-height: 100px;
-        }
-    }
-}
 
 .menu {
     &__btn {

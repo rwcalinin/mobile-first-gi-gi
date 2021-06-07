@@ -1,50 +1,42 @@
-//
 // ! init ---------
+//
 @import './fonts';
 @import './vars';
-// ! <-------------
 //
-// ! optional -----
+// ! <-------------
+
+// ! standart selector settings -----
+//
 html {
     box-sizing: border-box;
 }
+//
 *,*::after,*::before {
     box-sizing: inherit;
 }
-
+//
 body {
     min-width: 320px;
     overflow-x: hidden;
 }
-
+//
 .container {
     padding: 0 20px;
 }
-@media (min-width: 640px) {
-    .container {
-        padding: 0 30px;
-    }
-}
-@media (min-width: 768px) {
-    .container {
-        padding: 0 40px;
-    }
-}
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 40px;
-    }
-}
-@media (min-width: 1440px) {
-    .container {
-        max-width: 1320px;
-    }
-}
-// ! <-------------------------
 //
+// ! <--------------------------------
+
 // ! imports ----------------
-@import './_blocks/header';
-// ! <-----------------------
 //
+@import './_blocks/header';
+//
+// ! <-----------------------
+
+// ! adapt imports ----------
+//
+@import './_adapt/tablet-640';
+@import './_adapt/tablet-768';
+@import './_adapt/small-1024';
+@import './_adapt/full-1440';
+//
+// ! <-----------------------
