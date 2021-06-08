@@ -2,4 +2,20 @@
     .container {
         max-width: 1320px;
     }
+    .top-slider {
+        &__item {
+            min-height: 668px;
+        }
+        &__title {
+            padding-top: 107px;
+            font-size: 96px;
+            line-height: 96px;
+            letter-spacing: 2px;
+        }
+        &__text {
+            max-width: 890px;
+            font-size: 24px;
+            line-height: 26px;
+        }
+    }
 }

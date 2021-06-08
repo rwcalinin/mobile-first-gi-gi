@@ -3,6 +3,9 @@
         padding: 0 40px;
     }
     .top-slider {
+        &__item {
+            min-height: 465px;
+        }
         &__title {
             padding: 87px 0 0;
             margin: 0 auto 0;

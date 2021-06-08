@@ -4,4 +4,17 @@
         margin: 0 auto;
         padding: 0 40px;
     }
+    .top-slider {
+        &__item {
+            min-height: 618px;
+        }
+        &__title {
+            padding-top: 101px;
+            font-size: 84px;
+            line-height: 84px;
+        }
+        .slick-dots {
+            bottom: 80px;
+        }
+    }
 }
