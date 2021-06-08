@@ -17,6 +17,21 @@
         line-height: 28px;
         text-transform: uppercase;
         padding: 36px 0 28px;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 8px;
+            width: 61px;
+            margin: 0 auto;
+            background-color: $text-color;
+        }
+    }
+    &__btn {
+        display: none;
     }
 
     .slick-dots {
