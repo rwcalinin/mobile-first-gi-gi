@@ -1,12 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 html {
   box-sizing: border-box; }
 
 *, *::after, *::before {
   box-sizing: inherit; }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
 body {
   min-width: 320px;
   overflow-x: hidden; }
+  body * {
+    font-family: 'Roboto', 'Arial';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px; }
 
 .container {
   padding: 0 20px; }
@@ -36,6 +47,16 @@ body {
     top: 15px;
     left: 14px;
     box-shadow: 0 4px 0 0 #2B4074, 0 8px 0 0 #2B4074; }
+
+.promo {
+  background: url("../../images/promo-bg.jpg") center center/cover no-repeat;
+  min-height: 193px; }
+
+.top-slider {
+  background: rgba(33, 33, 33, 0.5); }
+  .top-slider__item {
+    color: #fff;
+    text-align: center; }
 
 @media (min-width: 640px) {
   .container {

@@ -1,0 +1,15 @@
+.promo {
+    background: url('../../images/promo-bg.jpg') center center/cover no-repeat;
+    min-height: 193px;
+}
+
+.top-slider {
+    background: rgba(33, 33, 33, 0.5);
+    &__item {
+        color: #fff;
+        text-align: center;
+    }
+    &__title {
+
+    }
+}
