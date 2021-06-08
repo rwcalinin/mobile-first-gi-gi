@@ -30,6 +30,9 @@
             background-color: $text-color;
         }
     }
+    &__text {
+        display: none;
+    }
     &__btn {
         display: none;
     }

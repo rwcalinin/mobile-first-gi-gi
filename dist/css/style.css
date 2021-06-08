@@ -18,6 +18,9 @@ ul, li {
 button {
   padding: 0; }
 
+p {
+  margin: 0; }
+
 body {
   min-width: 320px;
   overflow-x: hidden; }
@@ -84,6 +87,8 @@ body {
       width: 61px;
       margin: 0 auto;
       background-color: #4A4A4A; }
+  .top-slider__text {
+    display: none; }
   .top-slider__btn {
     display: none; }
   .top-slider .slick-dots {
@@ -129,7 +134,8 @@ body {
     color: #F9F6E5;
     padding: 16px 45px;
     border: none;
-    border-radius: 3px; }
+    border-radius: 3px;
+    font-weight: 500; }
   .top-slider .slick-dots {
     bottom: 50px; }
   .top-slider .slick-arrow {
@@ -148,7 +154,21 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    padding: 0 40px; } }
+    padding: 0 40px; }
+  .top-slider__title {
+    padding: 87px 0 0;
+    margin: 0 auto 0; }
+    .top-slider__title::after {
+      display: none; }
+  .top-slider__text {
+    display: block;
+    max-width: 587px;
+    margin: 0 auto;
+    padding: 25px 0 32px;
+    font-family: 'Roboto Condensed', 'Arial';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px; } }
 
 @media (min-width: 1024px) {
   .container {
