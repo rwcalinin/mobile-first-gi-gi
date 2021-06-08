@@ -10,6 +10,11 @@ html {
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 body {
   min-width: 320px;
   overflow-x: hidden; }
@@ -56,7 +61,34 @@ body {
   background: rgba(33, 33, 33, 0.5); }
   .top-slider__item {
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    min-height: 193px; }
+  .top-slider__title {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 36px 0 28px; }
+  .top-slider .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center; }
+    .top-slider .slick-dots .slick-active button {
+      background-color: transparent;
+      border: 1px solid #476E4D; }
+    .top-slider .slick-dots button {
+      font-size: 0;
+      border: none;
+      background-color: #2B4074;
+      padding: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin: 0 10px; }
 
 @media (min-width: 640px) {
   .container {

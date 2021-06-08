@@ -8,8 +8,40 @@
     &__item {
         color: #fff;
         text-align: center;
+        min-height: 193px;
     }
     &__title {
-
+        font-family: 'Roboto Condensed';
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 28px;
+        text-transform: uppercase;
+        padding: 36px 0 28px;
     }
+
+    .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        .slick-active {
+            button {
+                background-color: transparent;
+                border: 1px solid #476E4D;
+            }
+        }
+        button {
+            font-size: 0;
+            border: none;
+            background-color: $accent;
+            padding: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+    }
+
 }
