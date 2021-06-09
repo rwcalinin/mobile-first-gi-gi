@@ -17,4 +17,13 @@
             bottom: 80px;
         }
     }
+
+    .call {
+        &__inner {
+            min-height: 160px;
+        }
+        &__text {
+            max-width: 550px;
+        }
+    }
 }

@@ -42,6 +42,7 @@ body {
     align-items: center; }
 
 .menu__btn {
+  cursor: pointer;
   position: relative;
   border: none;
   border-radius: 3px;
@@ -90,7 +91,8 @@ body {
   .top-slider__text {
     display: none; }
   .top-slider__btn {
-    display: none; }
+    display: none;
+    cursor: pointer; }
   .top-slider .slick-dots {
     position: absolute;
     bottom: 20px;
@@ -110,6 +112,32 @@ body {
       height: 10px;
       border-radius: 50%;
       margin: 0 10px; }
+
+.call {
+  text-align: center;
+  background-color: #2B4074;
+  color: #fff; }
+  .call__title {
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 40px; }
+  .call__descr {
+    font-family: 'Dosis', 'Arial';
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 10px;
+    letter-spacing: 0.5px; }
+  .call__button {
+    border: none;
+    border-radius: 3px;
+    color: #2B4074;
+    background-color: #F9F6E5;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 16px;
+    margin: 40px 0 40px;
+    cursor: pointer; }
 
 @media (min-width: 640px) {
   .container {
@@ -144,7 +172,8 @@ body {
     height: 56px;
     border: none;
     right: 0;
-    z-index: 7; }
+    z-index: 7;
+    cursor: pointer; }
   .top-slider .slick-prev {
     background-color: #2B4074;
     top: calc(50% - 56px); }
@@ -170,7 +199,17 @@ body {
     font-family: 'Roboto Condensed', 'Arial';
     font-weight: 400;
     font-size: 18px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  .call__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 187px; }
+  .call__title {
+    padding: 0; }
+  .call__text {
+    text-align: start;
+    max-width: 415px; } }
 
 @media (min-width: 1024px) {
   .container {
@@ -184,7 +223,11 @@ body {
     font-size: 84px;
     line-height: 84px; }
   .top-slider .slick-dots {
-    bottom: 80px; } }
+    bottom: 80px; }
+  .call__inner {
+    min-height: 160px; }
+  .call__text {
+    max-width: 550px; } }
 
 @media (min-width: 1440px) {
   .container {

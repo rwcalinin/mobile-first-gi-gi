@@ -24,4 +24,20 @@
             line-height: 20px;
         }
     }
+
+    .call {
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 187px;
+        }
+        &__title {
+            padding: 0;
+        }
+        &__text {
+            text-align: start;
+            max-width: 415px;
+        }
+    }
 }

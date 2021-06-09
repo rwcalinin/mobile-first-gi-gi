@@ -1,0 +1,35 @@
+.call {
+    text-align: center;
+    background-color: $accent;
+    color: #fff;
+    &__inner {
+
+    }
+    &__text {
+
+    }
+    &__title {
+        font-size: 24px;
+        line-height: 24px;
+        padding-top: 40px;
+    }
+    &__descr {
+        font-family: 'Dosis', 'Arial';
+        font-size: 16px;
+        line-height: 18px;
+        padding-top: 10px;
+        letter-spacing: 0.5px;
+    }
+    &__button {
+        border: none;
+        border-radius: 3px;
+        color: $accent;
+        background-color: $bg-color;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+        padding: 16px;
+        margin: 40px 0 40px;
+        cursor: pointer;
+    }
+}
