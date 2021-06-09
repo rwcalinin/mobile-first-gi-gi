@@ -23,15 +23,38 @@ p {
 
 body {
   min-width: 320px;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #9B9B9B; }
   body * {
     font-family: 'Roboto', 'Arial';
     font-weight: 400;
     font-size: 16px;
     line-height: 18px; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .container {
   padding: 0 20px; }
+
+.title {
+  font-family: 'Roboto Condensed', 'Arial';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 28px;
+  position: relative; }
+  .title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50px;
+    height: 8px;
+    background-color: #2B4074; }
 
 .header {
   background-color: #2B4074; }
@@ -138,6 +161,10 @@ body {
     padding: 16px;
     margin: 40px 0 40px;
     cursor: pointer; }
+
+.services {
+  padding: 25px 0 40px;
+  text-align: center; }
 
 @media (min-width: 640px) {
   .container {
