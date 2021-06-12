@@ -1,0 +1,54 @@
+.quote {
+    text-align: center;
+    &__img {
+        margin: 50px 0 50px;
+    }
+}
+
+.bottom-slider {
+    &__text {
+        font-size: 24px;
+        line-height: 26px;
+        color: $text-color;
+        font-family: 'Roboto Condensed';
+        span {
+            font-family: 'Roboto Condensed';
+            color: $accent;
+            font-size: 24px;
+            line-height: 26px;
+            font-weight: 700;
+        }
+    }
+    &__author {
+        font-family: 'Roboto Condensed';
+        color: $text-color;
+        font-size: 20px;
+        padding-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        .slick-active {
+            button {
+                background-color: transparent;
+                border: 1px solid #476E4D;
+            }
+        }
+        button {
+            font-size: 0;
+            border: none;
+            background-color: $accent;
+            padding: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+    }
+}

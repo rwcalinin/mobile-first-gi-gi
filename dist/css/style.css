@@ -282,6 +282,50 @@ a {
   background-color: #2B4074;
   margin-bottom: 40px; }
 
+.quote {
+  text-align: center; }
+  .quote__img {
+    margin: 50px 0 50px; }
+
+.bottom-slider__text {
+  font-size: 24px;
+  line-height: 26px;
+  color: #4A4A4A;
+  font-family: 'Roboto Condensed'; }
+  .bottom-slider__text span {
+    font-family: 'Roboto Condensed';
+    color: #2B4074;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700; }
+
+.bottom-slider__author {
+  font-family: 'Roboto Condensed';
+  color: #4A4A4A;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-bottom: 80px; }
+
+.bottom-slider .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center; }
+  .bottom-slider .slick-dots .slick-active button {
+    background-color: transparent;
+    border: 1px solid #476E4D; }
+  .bottom-slider .slick-dots button {
+    font-size: 0;
+    border: none;
+    background-color: #2B4074;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px; }
+
 @media (min-width: 640px) {
   .container {
     padding: 0 30px; }
