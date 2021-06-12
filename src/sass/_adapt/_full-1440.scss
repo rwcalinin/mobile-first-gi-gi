@@ -18,4 +18,29 @@
             line-height: 26px;
         }
     }
+    
+    .services {
+        .container {
+            max-width: 1440px;
+        }
+        padding: 0;
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__head {
+            max-width: 400px;
+            text-align: start;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+        }
+        &__items {
+            margin: 0;
+        }
+        &__item {
+            width: 240px;
+        }
+    }
+
 }

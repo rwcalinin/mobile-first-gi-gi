@@ -40,4 +40,31 @@
             max-width: 415px;
         }
     }
+
+    .services {
+        padding: 50px 0 0;
+        &__title {
+            margin-bottom: 30px;
+            padding-bottom: 0;
+            &::after {
+                display: none;
+            }
+        }&__text {
+            margin-bottom: 28px;
+        }
+        &__items {
+            margin: 0 -40px;
+        }
+        &__item {
+            min-height: 310px;
+            width: 50%;
+            &:nth-child(even) {
+                border-left: none;
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+
 }

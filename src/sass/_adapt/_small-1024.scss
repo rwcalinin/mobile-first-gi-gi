@@ -26,4 +26,21 @@
             max-width: 550px;
         }
     }
+
+    .services {
+        padding: 52px 0 0;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__item {
+            width: 25%;
+            &:nth-child(even) {
+                border-left: none;
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+
 }
