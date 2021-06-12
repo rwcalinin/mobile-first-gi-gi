@@ -1,3 +1,16 @@
+.first-proj {
+    background: url("../../images/projects/lalique.jpg") center center/cover no-repeat;
+}
+.second-proj {
+    background: url("../../images/projects/build.jpg") center center/cover no-repeat;
+}
+.third-proj {
+    background: url("../../images/projects/coffee.jpg") center center/cover no-repeat;
+}
+.four-proj {
+    background: url("../../images/projects/tour.jpg") center center/cover no-repeat;
+}
+
 .projects {
     background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
     min-height: 1384px;
@@ -10,8 +23,10 @@
             background-color: #fff;
         }
     }
-    &__item {
-        cursor: pointer;
+    &__img-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     &__img-box {
         width: 280px;
@@ -19,6 +34,34 @@
         background-color: gray;
         margin: 0 auto;
         border-radius: 5px;
+        position: relative;
+        &:hover {
+            .projects__img-info {
+                transition: all .7s;
+                position: absolute;
+                left: 5%;
+                top: 5%;
+                width: 90%;
+                height: 90%;
+                background: #F9F6E5;
+                mix-blend-mode: normal;
+                opacity: 0.83;
+                border-radius: 4px;
+            }
+            .projects__info-btn,
+            .projects__search-btn {
+                cursor: pointer;
+                opacity: 1;
+                overflow: visible;
+            }
+        }
+    }
+    .projects__info-btn,
+    .projects__search-btn {
+        opacity: 0;
+        overflow: hidden;
+        margin: 0 5px;
+        width: 10%;
     }
     &__name {
         font-family: 'Roboto Condensed';

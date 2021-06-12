@@ -1,6 +1,11 @@
 .services {
     padding: 25px 0 40px;
     text-align: center;
+    &__item-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     &__title {
         color: $accent;
         margin-bottom: 47px;
@@ -29,29 +34,22 @@
             border-bottom: 1px solid $bg-color;
         }
         &:hover {
+            .services__item-text,
             .services__item-link {
-                display: block;
-            }
-            .services__item-text {
-                display: block;
-            }
-            .services__item-img {
-                margin-bottom: 14px;
-            }
-            .services__item-title {
-                margin-bottom: 30px;
+                opacity: 1;
+                overflow: visible;
             }
             .services__item-inner {
-                // min-height: 277px;
                 min-height: 269px;
                 border: 4px solid $accent;
                 margin: 18px;
-                padding: 25px 20px 5px;
             }
         }
     }
     &__item-img {
         margin-bottom: 30px;
+        width: 60px;
+        margin: 0 auto;
     }
     &__item-title {
         font-family: 'Roboto Condensed';
@@ -62,14 +60,18 @@
         line-height: 18.75px;
         letter-spacing: 2px;
     }
+    &__item-text,
+    &__item-link {
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s;
+    }
     &__item-text {
-        display: none;
         font-family: 'Dosis';
         font-weight: 500;
         margin-bottom: 17px;
     }
     &__item-link {
-        display: none;
         font-family: 'Roboto Condensed';
         font-weight: 700;
         text-transform: uppercase;
