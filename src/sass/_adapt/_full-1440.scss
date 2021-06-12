@@ -40,6 +40,10 @@
         }
         &__item {
             width: 240px;
+            &:nth-child(2),
+            &:nth-child(6) {
+                border-right: none;
+            }
         }
     }
 
@@ -59,8 +63,11 @@
     }
 
     .team {
+        &__inner {
+            justify-content: center;
+        }
         &__img {
-            margin-top: 40px;
+            margin: 0 auto;
             width: 460px;
             height: 100%;
         }

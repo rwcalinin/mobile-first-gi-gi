@@ -64,7 +64,8 @@
     .team {
         &__img {
             width: 401px;
-            height: 380px;
+            // height: 380px;
+            height: 100%;
         }
         &__descr {
             margin-bottom: 80px;

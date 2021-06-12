@@ -117,7 +117,8 @@
     .team {
         &__img {
             width: 518px;
-            height: 490px;
+            // height: 490px;
+            height: 100%;
         }
         &__title {
             font-size: 36px;
