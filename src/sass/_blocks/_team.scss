@@ -1,0 +1,36 @@
+.team {
+    &__inner {
+
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 280px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    &__block {
+        text-align: center;
+    }
+    &__title {
+        font-size: 24px;
+        color: $text-color;
+        padding-top: 40px;
+        margin-bottom: 25px;
+    }
+    &__descr {
+        letter-spacing: 0.5px;
+        line-height: 20px;
+        margin-bottom: 84px;
+    }
+    &__watch-video {
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 230px;
+        height: 60px;
+        color: $bg-color;
+        background-color: $accent;
+        margin-bottom: 40px;
+    }
+}

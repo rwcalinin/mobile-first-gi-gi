@@ -251,6 +251,37 @@ a {
     color: #2B4074;
     font-weight: 700; }
 
+.team__img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 280px;
+  height: 250px;
+  border-radius: 5px; }
+
+.team__block {
+  text-align: center; }
+
+.team__title {
+  font-size: 24px;
+  color: #4A4A4A;
+  padding-top: 40px;
+  margin-bottom: 25px; }
+
+.team__descr {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  margin-bottom: 84px; }
+
+.team__watch-video {
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 230px;
+  height: 60px;
+  color: #F9F6E5;
+  background-color: #2B4074;
+  margin-bottom: 40px; }
+
 @media (min-width: 640px) {
   .container {
     padding: 0 30px; }
@@ -335,7 +366,13 @@ a {
     line-height: 56px; }
   .projects__img-box {
     width: 518px;
-    height: 460px; } }
+    height: 460px; }
+  .team__img {
+    width: 518px;
+    height: 490px; }
+  .team__title {
+    font-size: 36px;
+    line-height: 38px; } }
 
 @media (min-width: 768px) {
   .container {
@@ -395,7 +432,17 @@ a {
     .projects__items {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around; } }
+      justify-content: space-around; }
+  .team__inner {
+    display: flex; }
+  .team__img {
+    margin-top: 50px;
+    margin-right: 25px;
+    width: 240px;
+    height: 227px; }
+  .team__descr {
+    margin-bottom: 30px;
+    text-align: start; } }
 
 @media (min-width: 1024px) {
   .container {
@@ -435,7 +482,14 @@ a {
     .projects__items {
       justify-content: center; }
     .projects__item {
-      margin: 0 60px 0; } }
+      margin: 0 60px 0; }
+  .team__img {
+    width: 401px;
+    height: 380px; }
+  .team__descr {
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 20px; } }
 
 @media (min-width: 1440px) {
   .container {
@@ -477,4 +531,11 @@ a {
       flex-direction: row;
       justify-content: space-around; }
     .projects__item {
-      margin: 0; } }
+      margin: 0; }
+  .team__img {
+    margin-top: 40px;
+    width: 460px;
+    height: 100%; }
+  .team__descr {
+    max-width: 600px;
+    margin-bottom: 110px; } }

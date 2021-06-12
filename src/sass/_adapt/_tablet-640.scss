@@ -114,4 +114,15 @@
         }
     }
 
+    .team {
+        &__img {
+            width: 518px;
+            height: 490px;
+        }
+        &__title {
+            font-size: 36px;
+            line-height: 38px;
+        }
+    }
+
 }

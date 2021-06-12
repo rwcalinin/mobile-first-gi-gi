@@ -84,4 +84,20 @@
         }
     }
 
+    .team {
+        &__inner {
+            display: flex;
+        }
+        &__img {
+            margin-top: 50px;
+            margin-right: 25px;
+            width: 240px;
+            height: 227px;
+        }
+        &__descr {
+            margin-bottom: 30px;
+            text-align: start;
+        }
+    }
+
 }

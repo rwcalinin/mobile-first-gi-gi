@@ -61,4 +61,16 @@
         }
     }
 
+    .team {
+        &__img {
+            width: 401px;
+            height: 380px;
+        }
+        &__descr {
+            margin-bottom: 80px;
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+
 }
