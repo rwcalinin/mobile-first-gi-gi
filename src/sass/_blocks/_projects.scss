@@ -1,0 +1,30 @@
+.projects {
+    background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+    min-height: 1384px;
+    text-align: center;
+    &__title {
+        color: #fff;
+        padding-top: 30px;
+        margin-bottom: 40px;
+        &::after {
+            background-color: #fff;
+        }
+    }
+    &__item {
+        cursor: pointer;
+    }
+    &__img-box {
+        width: 280px;
+        height: 250px;
+        background-color: gray;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    &__name {
+        font-family: 'Roboto Condensed';
+        display: block;
+        padding: 20px 0 40px;
+        color: $accent;
+        font-weight: 700;
+    }
+}

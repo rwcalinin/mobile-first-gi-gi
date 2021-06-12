@@ -67,4 +67,21 @@
         }
     }
 
+    .projects {
+        min-height: 1033px;
+        &__title {
+            padding-top: 70px;
+            margin-bottom: 75px;
+        }
+        &__img-box {
+            width: 317px;
+            height: 282px;
+        }
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+
 }

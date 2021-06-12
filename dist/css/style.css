@@ -226,6 +226,31 @@ a {
     font-size: 16px;
     line-height: 19px; }
 
+.projects {
+  background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+  min-height: 1384px;
+  text-align: center; }
+  .projects__title {
+    color: #fff;
+    padding-top: 30px;
+    margin-bottom: 40px; }
+    .projects__title::after {
+      background-color: #fff; }
+  .projects__item {
+    cursor: pointer; }
+  .projects__img-box {
+    width: 280px;
+    height: 250px;
+    background-color: gray;
+    margin: 0 auto;
+    border-radius: 5px; }
+  .projects__name {
+    font-family: 'Roboto Condensed';
+    display: block;
+    padding: 20px 0 40px;
+    color: #2B4074;
+    font-weight: 700; }
+
 @media (min-width: 640px) {
   .container {
     padding: 0 30px; }
@@ -304,7 +329,13 @@ a {
       .services__item:nth-child(even) {
         border-left: none; }
       .services__item:last-child {
-        border-bottom: none; } }
+        border-bottom: none; }
+  .projects__title {
+    font-size: 48px;
+    line-height: 56px; }
+  .projects__img-box {
+    width: 518px;
+    height: 460px; } }
 
 @media (min-width: 768px) {
   .container {
@@ -352,7 +383,19 @@ a {
       .services__item:nth-child(even) {
         border-left: none; }
       .services__item:last-child {
-        border-bottom: none; } }
+        border-bottom: none; }
+  .projects {
+    min-height: 1033px; }
+    .projects__title {
+      padding-top: 70px;
+      margin-bottom: 75px; }
+    .projects__img-box {
+      width: 317px;
+      height: 282px; }
+    .projects__items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; } }
 
 @media (min-width: 1024px) {
   .container {
@@ -380,7 +423,19 @@ a {
       .services__item:nth-child(even) {
         border-left: none; }
       .services__item:last-child {
-        border-bottom: none; } }
+        border-bottom: none; }
+  .projects {
+    min-height: 1033px; }
+    .projects__title {
+      padding-top: 70px;
+      margin-bottom: 75px; }
+    .projects__img-box {
+      width: 317px;
+      height: 282px; }
+    .projects__items {
+      justify-content: center; }
+    .projects__item {
+      margin: 0 60px 0; } }
 
 @media (min-width: 1440px) {
   .container {
@@ -412,4 +467,14 @@ a {
     .services__items {
       margin: 0; }
     .services__item {
-      width: 240px; } }
+      width: 240px; }
+  .projects {
+    min-height: 618px; }
+    .projects__img-box {
+      width: 268px;
+      height: 239px; }
+    .projects__items {
+      flex-direction: row;
+      justify-content: space-around; }
+    .projects__item {
+      margin: 0; } }

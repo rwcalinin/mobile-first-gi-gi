@@ -43,4 +43,19 @@
         }
     }
 
+    .projects {
+        min-height: 618px;
+        &__img-box {
+            width: 268px;
+            height: 239px;
+        }
+        &__items {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        &__item {
+            margin: 0;
+        }
+    }
+
 }
