@@ -126,4 +126,20 @@
         }
     }
 
+    .updoc {
+        &__inner {
+            min-height: 42px;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        &__text {
+            margin: 0;
+        }
+        &__img {
+            position: relative;
+            top: 2.5px;
+            left: 2.5px;
+        }
+    }
+
 }

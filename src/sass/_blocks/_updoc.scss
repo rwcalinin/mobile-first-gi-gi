@@ -1,0 +1,17 @@
+.updoc {
+    background-color: $bg-color;
+    &__inner {
+        min-height: 142px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        font-family: "Roboto Condensed";
+        text-transform: uppercase;
+        color: $text-color;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+}

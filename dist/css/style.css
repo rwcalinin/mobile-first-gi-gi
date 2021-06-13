@@ -415,6 +415,21 @@ a {
   .footer__email {
     display: block; }
 
+.updoc {
+  background-color: #F9F6E5; }
+  .updoc__inner {
+    min-height: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .updoc__text {
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    color: #4A4A4A;
+    letter-spacing: 2px;
+    margin-bottom: 20px; }
+
 @media (min-width: 640px) {
   .container {
     padding: 0 30px; }
@@ -505,7 +520,17 @@ a {
     height: 100%; }
   .team__title {
     font-size: 36px;
-    line-height: 38px; } }
+    line-height: 38px; }
+  .updoc__inner {
+    min-height: 42px;
+    flex-direction: row;
+    justify-content: flex-end; }
+  .updoc__text {
+    margin: 0; }
+  .updoc__img {
+    position: relative;
+    top: 2.5px;
+    left: 2.5px; } }
 
 @media (min-width: 768px) {
   .container {
