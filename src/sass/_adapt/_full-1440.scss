@@ -20,13 +20,18 @@
     }
     
     .services {
+        padding: 0;
         .container {
             max-width: 1440px;
         }
-        padding: 0;
         &__inner {
             display: flex;
             justify-content: space-between;
+        }
+        &__descr {
+            &:after {
+                right: inherit;
+            }
         }
         &__head {
             max-width: 400px;

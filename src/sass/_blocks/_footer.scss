@@ -1,3 +1,63 @@
 .footer {
+    margin-top: 40px;
     background-color: $accent;
+    text-align: center;
+    color: #fff;
+    
+    &__inner {
+        position: relative;
+    }
+
+    &__block {
+        padding-bottom: 36px;
+        * {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    &__logo-box {
+        position: relative;
+        bottom: 30px;
+        margin: 0 auto;
+        background-color: $accent;
+        width: 230px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__text {
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        margin: 40px 0 40px;
+    }
+
+    &__smm {
+        margin-bottom: 40px;
+    }
+
+    &__smm-icon {
+        display: block;
+        margin: 10px auto;
+    }
+
+    &__subtitle {
+        font-family: "Roboto Condensed";
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    &__phone {
+        display: block;
+    }
+    &__email {
+        display: block;
+    }
 }
