@@ -74,4 +74,17 @@
         }
     }
 
+    .footer {
+        &__bottom-box {
+            padding-top: 25px;
+            padding-bottom: 50px;
+        }
+        &__block {
+            width: 25%;
+        }
+        &__smm-link {
+            width: 230px;
+        }
+    }
+
 }

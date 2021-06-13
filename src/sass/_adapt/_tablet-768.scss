@@ -101,4 +101,16 @@
         }
     }
 
+    .footer {
+    
+        &__smm {
+            display: flex;
+            justify-content: center;
+        }
+        
+        &__smm-link {
+            width: 172px;
+        }
+    }
+
 }

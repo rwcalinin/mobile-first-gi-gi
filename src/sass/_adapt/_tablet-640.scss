@@ -149,18 +149,16 @@
             justify-content: center;
         }
         
-        &__smm-item {
+        &__smm-link {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 130px;
             height: 57px;
             border: 1px solid #7EBF84;
+            border-right: none;
             &:first-child {
                 border-left: none;
-            }
-            &:last-child {
-                border-right: none;
             }
         }
     
