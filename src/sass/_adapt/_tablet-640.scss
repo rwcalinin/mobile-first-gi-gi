@@ -126,6 +126,50 @@
         }
     }
 
+    .footer {
+
+        &__bottom-box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__block {
+            width: 50%;
+        }
+    
+        &__block {
+            padding-bottom: 36px;
+            * {
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    
+        &__smm {
+            display: flex;
+            justify-content: center;
+        }
+        
+        &__smm-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 57px;
+            border: 1px solid #7EBF84;
+            &:first-child {
+                border-left: none;
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
+    
+        &__subtitle {
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+
     .updoc {
         &__inner {
             min-height: 42px;

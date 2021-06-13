@@ -521,6 +521,33 @@ a {
   .team__title {
     font-size: 36px;
     line-height: 38px; }
+  .footer__bottom-box {
+    display: flex;
+    flex-wrap: wrap; }
+  .footer__block {
+    width: 50%; }
+  .footer__block {
+    padding-bottom: 36px; }
+    .footer__block * {
+      font-size: 16px;
+      line-height: 20px; }
+  .footer__smm {
+    display: flex;
+    justify-content: center; }
+  .footer__smm-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 57px;
+    border: 1px solid #7EBF84; }
+    .footer__smm-item:first-child {
+      border-left: none; }
+    .footer__smm-item:last-child {
+      border-right: none; }
+  .footer__subtitle {
+    font-size: 18px;
+    line-height: 21px; }
   .updoc__inner {
     min-height: 42px;
     flex-direction: row;
