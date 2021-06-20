@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+.--active {
+  transform: translateX(0px);
+  opacity: 1; }
+
+.call__text {
+  transition: all 0.8s ease 0s;
+  transform: translateX(-220px);
+  opacity: 0; }
+
 html {
   box-sizing: border-box; }
 

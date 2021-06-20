@@ -1,0 +1,10 @@
+.--active {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.call__text {
+    transition: all 0.8s ease 0s;
+    transform: translateX(-220px);
+    opacity: 0;
+}
