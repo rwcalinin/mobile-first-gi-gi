@@ -1,10 +1,21 @@
-.--active {
-    transform: translateX(0px);
-    opacity: 1;
+.--appear-from-left {
+    transition: all 1.1s ease 0s;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+.--appear-from-right {
+    transition: all 1.1s ease 0s;
+    transform: translateX(100px);
+    opacity: 0;
 }
 
-.call__text {
-    transition: all 0.8s ease 0s;
-    transform: translateX(-220px);
+.--appear-from-bot {
+    transition: all 1.1s ease 0s;
+    transform: translate(0px, 100px);
     opacity: 0;
+}
+
+.--active {
+    transform: translate(0px);
+    opacity: 1;
 }
